@@ -1,0 +1,21 @@
+{
+  "name": "findly-search",
+  "version": "1.0.0",
+  "description": "Findly Search - Web Search Engine with Brave Search API & SSRF-Protected File Downloader",
+  "scripts": {
+    "dev:backend": "node backend/src/server.js",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "test": "node backend/src/test_suite.js"
+  },
+  "keywords": [
+    "search-engine",
+    "brave-search-api",
+    "express",
+    "react",
+    "ssrf-protection",
+    "pemrograman-web-lanjut"
+  ],
+  "author": "Findly Search Team",
+  "license": "MIT"
+}
